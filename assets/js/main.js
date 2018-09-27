@@ -9,6 +9,20 @@
 
 	"use strict";
 
+	 /*==========================
+        Intro typer
+    ============================*/
+    var element = $(".element");
+
+        $(function() {
+            element.typed({
+                strings: ["Wisman Nur.", "Developer.", "Freelancer."],
+                typeSpeed: 150,
+                loop: true,
+            });
+		});
+		
+
 	/*---------------------------------------------------- */
 	/* Preloader
 	------------------------------------------------------ */ 
