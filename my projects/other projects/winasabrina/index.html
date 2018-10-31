@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Konstanta Variabel dan Ekspresi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <marquee>SMK PENIDA 2 KATAPANG</marquee>
+    
+    <p>KONSTANTA, VARIABEL DAN EKSPRESI</p>
+    <p>1. KONSTANTA</p>
+    Konstanta adalah suatu identifier nonstandar yang nilainya telah ditetapkan dalam suatu program dan dideklarasikan pada bagian deklarasi.
+    <p>2. VARIABEL</p>
+    Variabel adalah suatu identifier nonstandar yang nilainya tidak tetap atau nilainya merupakan hasil dari suatu proses.
+    Variabel dinyatakan menggunakan kata cadangan var sebagai judul dibagian deklarasi variabel, diikuti oleh satu atau lebih identifier yang dipisahkan dengan tanda koma.
+    <p>3. EKSPRESI</p>
+    Sebuah ekspresi merupakan kumpulan dari operand-operand (seperti: bilangan konstanta, variabel, dan lain-lain) yang bersama-sama dengan operator membentuk suatu bentuk aljabar dan menyatakan suatu nilai.
+    
+    <P>JENIS DATA</p>
+    Jenis Data, ada bermacam-macam data standar yang dikenal dalam bahasa pascal. Berikut ini adalah uraian singkat tentang beberapa data standar yang dikenal dalam bahasa pascal.
+    <p>1. INTEGER</p>
+    Integer adalah tipe data untuk menyatakan bilangan bulat. jenis data ini dibagi beberapa bagian, seperti tampak pada tabel berikut.
+        
+        <p><center>TABEL</center></p>
+        <center>JENIS-JENIS INTEGER DAN LAINNYA</center>
+    <table width="600" border="2" cellspacing="1" cellpadding="5"align="center">
+        <tr align="center"bgcolor="input warna tabel">
+        <br>
+        <br>
+        <td width="300">Tipe</td>
+        <td width="300">Nilai</td>
+        </tr>
+        <tr>
+        <td>Byte</td>
+        <td>0 sd 255</td>
+        </tr>
+        <td>Shortint</td>
+        <td>-128 sd 127</td>
+        </tr>
+        <td>Integer</td>
+        <td>-32768 sd 32767</td>
+        </tr>
+        <td>Word</td>
+        <td>0 sd 65535</td>
+        </tr>
+        <td>Longint</td>
+        <td>-2147483648 sd 2147483647</td>
+        </tr>
+        <tr>
+        </table></font>
+
+        <p>Operator yang dapat digunakan pada data tipe tersebut yaitu:
+        <p>+ : menyatakan penjumlahan<p>
+        <p>- : menyatakan pengurangan</p>
+        <p>* : menyatakan perkalian</p>
+        <p>Div : menyatakan pembagian</p>
+        <p>Mod : menyatakan sisa pembagian</p>
+
+    <p>2. REAL</p>
+    <P>Bilangan real adalah bilangan yang mengandung pecahan paling sedikit harus ada 1 digit sebelum dan sesudah titik desimal. Nilai konstanta
+       numerik real berkisar dari 1E-38 sampai dengan 1E+38. E menunjukan nilai 10 pangkat nilai konstanta numerik real menempati memori sebesar 6 byte.</p>
+            <p><center>TABEL</center></p>
+            <center>JENIS DATA REAL</center>
+    <table width="600" border="2" cellspacing="1" cellpadding="5"align="center">
+        <tr align="center"bgcolor="input warna tabel">
+        <br>
+        <br>
+        <td width="300">Tipe</td>
+        <td width="300">Ukuran Memori Byte</td>
+        <td width="300">Nilai</td>
+        </tr>
+        <tr>
+        <td>Single</td>
+        <td>4</td>
+        <td>15x10E - 45...34x10E38</td>
+        </tr>
+        <td>Double</td>
+        <td>8</td>
+        <td>5.0x10E-324...17x10E308</td>
+        </tr>
+        <td>Extended</td>
+        <td>107</td>
+        <td>1.9x10E-4951...11X10E4932</td>
+        </tr>
+        <td>Comp</td>
+        <td>8</td>
+        <td>-2E+63+1...2E+63.1</td>
+        </tr>
+        <tr>
+        </table></font>
+        
+
+    <p>3. KARAKTER</p>
+        Karakter adalah semua tombol yang terdapat pada keyboard atau lebih lengkapnya semua karakter yang terdapat pada kode ASCI apabila data char ingin dijadikan sebagai konstanta maka karakter 
+    harus diapi dengan tanda kutip satu misalnya: nilai=c.</p>
+    <p>4. STRING</p>
+        String adalah tipe untuk menyatakan kata atau kalimat. Data string juga merupakan urutan-urutan dari karakter yang terletak di antara tanda petik tunggal. Bila panjang suatu string di dalam deklarasi
+    variabel tidak disebutkan maka dianggap panjangnya 255 karakter.
+    <p>5. BOOLEAN</p>
+        Boolean adalah tipe yang hanya mempunyai dua kemungkinan,yaitu true dan false. Untuk lebih jelasnya perhatikan nilai kebenaran pada tabel dibawah ini
+    <table width="600" border="2" cellspacing="1" cellpadding="5"align="center">
+        <tr align="center"bgcolor="input warna tabel">
+        <br>
+        <br>
+        <td width="300">P</td>
+        <td width="300">Q</td>
+        <td width="300">P & Q</td>
+        <td width="300">Q Or P</td>
+        <td width="300">P Xor Q</td>
+        </tr>
+        <tr>
+        <td>True</td>
+        <td>True</td>
+        <td>True</td>
+        <td>True</td>
+        <td>False</td>
+        </tr>
+        <td>True</td>
+        <td>False</td>
+        <td>False</td>
+        <td>True</td>
+        <td>True</td>
+        </tr>
+        <td>False</td>
+        <td>True</td>
+        <td>False</td>
+        <td>True</td>
+        <td>True</td>
+        </tr>
+        <td>False</td>
+        <td>False</td>
+        <td>False</td>
+        <td>False</td>
+        <td>False</td>
+        </tr>
+        <tr>
+        </table></font>
+        
+        <p><center>TABEL</center></p>
+        <center>TIPE DATA BOOLEAN</center>
+    <table width="600" border="2" cellspacing="1" cellpadding="5"align="center">
+        <tr align="center"bgcolor="input warna tabel">
+        <br>
+        <br>
+        <td width="300">Tipe Data</td>
+        <td width="300">Ukuran Tempat</td>
+        </tr>
+        <tr>
+        <td>Boolean</td>
+        <td>1 Byte</td>
+        </tr>
+        <td>Word Bool</td>
+        <td>2 Byte</td>
+        </tr>
+        <td>Long Bool</td>
+        <td>3 Byte</td>
+        </tr>
+        <tr>
+        </table></font>
+
+    <p>6.ARRAY</p>
+        Tipe data array adalah tipe terstruktur yang mempunyai komponen dalam jumlah yang tetap dan setiap posisi masing-masing komponen dalam array di nyatakan sebagai nomor indeks.
+
+    <p>OPERATOR</p>
+        Dalam menulis program,kita tidak mungkin terlepas dari penggunaan operator karena operator adalah sesuatu yang di gunakan untuk melakukan operasi-operasi tentu 
+    contoh:1+2+3 yang disebut ekspresi tanda positif dan negatif merupakan tanda operator sedangkan nilai 1,2 dan 3 disebut operand.
+    <p>1. Operator not digunakan untuk balikan suatu nilai pernyataan yang diprlukan adalah pernyaan yang memiliki nilai true and false.
+        <center>TABEL</center>
+        <center>TIPE DATA OPERATOR NOT</center>
+    <table width="600" border="2" cellspacing="1" cellpadding="5"align="center">
+        <tr align="center"bgcolor="input warna tabel">
+        <br>
+        <br>
+        <td width="300">A</td>
+        <td width="300">NOT A</td>
+        </tr>
+        <tr>
+        <td>True</td>
+        <td>False</td>
+        </tr>
+        <td>false</td>
+        <td>True</td>
+        </tr>
+        <tr>
+        </table></font>
+
+    <p>2. Operator And</p>
+        Operator And digunakan untuk menguji beberapa nilai atau kondisi sekaligus sehingga memerlukan sedikitnya dua buah pernyataan berupa logika untuk menghasilkan nilai TRUE atau FALSE.
+        
+            <p><center>TABEL</center></p>
+            <center>TIPE DATA OPERATOR AND</center>
+        <table width="600" border="2" cellspacing="1" cellpadding="5"align="center">
+            <tr align="center"bgcolor="input warna tabel">
+            <br>
+            <br>
+            <td width="300">A</td>
+            <td width="300">B</td>
+            <td width="300">A and B</td>
+            </tr>
+            <tr>
+            <td>True</td>
+            <td>True</td>
+            <td>True</td>
+            </tr>
+            <td>True</td>
+            <td>False</td>
+            <td>False</td>
+            </tr>
+            <td>False</td>
+            <td>True</td>
+            <td>False</td>
+            </tr>
+            <td>False</td>
+            <td>False</td>
+            <td>True</td>
+            </tr>
+            <tr>
+            </table></font>
+    <p>3. Operator OR</p>
+        Operator OR digunakan untuk menguji beberapa nilai atau kondisi dan mengembalikan nilai TRUE atau FALSE.Ia juga memerlukan sedikitnya dua buah pernyataan berupa logika.
+
+        <p><center>TABEL</center></p>
+        <center>TIPE DATA OPERATOR OR</center>
+        <table width="600" border="2" cellspacing="1" cellpadding="5"align="center">
+            <tr align="center"bgcolor="input warna tabel">
+            <br>
+            <br>
+            <td width="300">A</td>
+            <td width="300">B</td>
+            <td width="300">A or B</td>
+            </tr>
+            <tr>
+            <td>True</td>
+            <td>True</td>
+            <td>True</td>
+            </tr>
+            <td>True</td>
+            <td>False</td>
+            <td>True</td>
+            </tr>
+            <td>False</td>
+            <td>True</td>
+            <td>True</td>
+            </tr>
+            <td>False</td>
+            <td>False</td>
+            <td>False</td>
+            </tr>
+            <tr>
+            </table></font>
+    <p>4. Operator XOR</p>
+        Operator _or(xor) ini akan menghasilkan nilai TRUE apabila hanya terdapat satu operand yang bernilai true.Apabila kedua operand-nya bernilai true maka operasi ini dapat menghasilkam
+    nilai FALSE. Begitu juga halnya apabila keduanya bernilai false maka menghasilkan nilai false.
+    
+        <p><center>TABEL</center></p>
+        <center>TIPE DATA OPERATOR XOR</center>
+    <table width="600" border="2" cellspacing="1" cellpadding="5"align="center">
+        <tr align="center"bgcolor="input warna tabel">
+        <br>
+        <br>
+        <td width="300">A</td>
+        <td width="300">B</td>
+        <td width="300">A and B</td>
+        </tr>
+        <tr>
+        <td>True</td>
+        <td>True</td>
+        <td>False</td>
+        </tr>
+        <td>True</td>
+        <td>False</td>
+        <td>True</td>
+        </tr>
+        <td>False</td>
+        <td>True</td>
+        <td>TRue</td>
+        </tr>
+        <td>False</td>
+        <td>False</td>
+        <td>False</td>
+        </tr>
+        <tr>
+        </table></font>
+    <p>5.Operasi Relassional</p>
+        Operator Relaional adalah operator yang digunakan untuk menentukan relasi atau hubungan dari dua buah nilai atau operand. Operator ini terdapat dalam sebuah ekspresi yang selanjutnya 
+    akan menentukan benar atau tidaknya ekspresi tersebut. Operator rasional biasanya di gunakan untuk melakukan pengecekan kondisi dalam blok pemilihan. Adapun yang termasuk kedalam operasional
+    di dalam bahasa pascal.
+    <p><center>TABEL</center></p>
+    <center>TIPE DATA RELASIONAL</center>
+    <table width="600" border="2" cellspacing="1" cellpadding="5"align="center">
+        <tr align="center"bgcolor="input warna tabel">
+        <br>
+        <br>
+        <td width="300">Operator</td>
+        <td width="300">Jenis Operator</td>
+        <td width="300">Tipe Operand</td>
+        <td width="300">Tipe Hasil</td>
+        <td width="300">Contoh</td>
+        </tr>
+        <tr>
+        <td>=</td>
+        <td>Sama Dengan</td>
+        <td>tipe dasar string,pchat,set</td>
+        <td>Boolean</td>
+        <td>A=3</td>
+        </tr>
+        <td>< ></td>
+        <td>tidak sama dengan</td>
+        <td>tipe data string,pchat,set</td>
+        <td>Boolean</td>
+        <td>A< >3</td>
+        </tr>
+        <td><</td>
+        <td>lebih kecil</td>
+        <td>tipe data string,pchat</td>
+        <td>Boolean</td>
+        <td>A<1</td>
+        </tr>
+        <td>></td>
+        <td>lebih besar</td>
+        <td>tipe dasar string,pchat</td>
+        <td>Boolean</td>
+        <td>A>5</td>
+        </tr>
+        <td><=</td>
+        <td>lebih kecil atau sama dengan</td>
+        <td>tipe dasar string,pchat,set</td>
+        <td>Boolean</td>
+        <td>A<=3</td>
+        </tr>
+        <td>>=</td>
+        <td>lebih besar atau sama dengan</td>
+        <td>tipe dasar string,pchat,set</td>
+        <td>Boolean</td>
+        <td>>=B</td>
+        </tr>
+        <tr>
+        </table></font>
+
+</body>
+</html>
