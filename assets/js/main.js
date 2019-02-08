@@ -225,7 +225,21 @@
 	------------------------------------------------------ */ 
 	$('input, textarea, select').placeholder()  
 
-
+	  $('#percobaan').on('click', function() {
+		  alert('hiiii')
+		  var obj = {
+            name : 'isi'
+        }
+        var params = JSON.stringify(obj)
+        $.ajax({
+            url : 'https://github.com/wismannur/wismannur.github.io/blob/master/db.json',
+            type: 'POST',
+            data : params, 
+            success: function() {
+                console.log('success')
+            }
+        })
+	  })
   	/*---------------------------------------------------- */
 	/*	contact form
 	------------------------------------------------------ */
